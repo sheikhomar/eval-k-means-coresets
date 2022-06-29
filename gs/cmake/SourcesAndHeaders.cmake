@@ -1,0 +1,42 @@
+set(headers
+    include/clustering/cluster_assignment_list.hpp
+    include/clustering/clustering_result.hpp
+    include/clustering/local_search.hpp
+    include/clustering/kmeans.hpp
+    include/clustering/kmeans1d.hpp
+    include/coresets/basic.hpp
+    include/coresets/coreset.hpp
+    include/coresets/group_sampling.hpp
+    include/coresets/ray.hpp
+    include/coresets/sensitivity_sampling.hpp
+    include/coresets/stream_km.hpp
+    include/data/bow_parser.hpp
+    include/data/csv_parser.hpp
+    include/data/census_parser.hpp
+    include/data/covertype_parser.hpp
+    include/data/data_parser.hpp
+    include/data/tower_parser.hpp
+    include/utils/distances.hpp
+    include/utils/random.hpp
+    include/utils/stop_watch.hpp
+)
+
+set(sources
+    source/clustering/cluster_assignment_list.cpp
+    source/clustering/clustering_result.cpp
+    source/clustering/local_search.cpp
+    source/clustering/kmeans.cpp
+    source/coresets/basic.cpp
+    source/coresets/coreset.cpp
+    source/coresets/group_sampling.cpp
+    source/coresets/sensitivity_sampling.cpp
+    source/coresets/stream_km.cpp
+    source/data/bow_parser.cpp
+    source/data/csv_parser.cpp
+    source/data/census_parser.cpp
+    source/data/covertype_parser.cpp
+    source/data/tower_parser.cpp
+    source/utils/random.cpp
+    source/utils/stop_watch.cpp
+    source/main.cpp
+)
